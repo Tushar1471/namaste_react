@@ -1,0 +1,23 @@
+{
+  "name": "namaste_dev",
+  "version": "1.0.0",
+  "description": "NAMASTE REACT COURSE",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tushar1471/namaste_react.git"
+  },
+  "keywords": [
+    "REACT",
+    "REDUX"
+  ],
+  "author": "Tushar Malhotra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tushar1471/namaste_react/issues"
+  },
+  "homepage": "https://github.com/Tushar1471/namaste_react#readme"
+}
