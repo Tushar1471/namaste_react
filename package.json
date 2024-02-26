@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Tushar1471/namaste_react/issues"
   },
-  "homepage": "https://github.com/Tushar1471/namaste_react#readme"
+  "homepage": "https://github.com/Tushar1471/namaste_react#readme",
+  "dependencies": {
+    "parcel": "^2.11.0"
+  }
 }
