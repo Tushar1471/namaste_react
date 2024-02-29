@@ -1,6 +1,28 @@
-const newHeading = React.createElement("div", { id: "parent" }, [React.createElement("div", { id: "child1", key: "child1" }, [React.createElement("h1", { key: 1 }, "  I am h1 tag"), React.createElement("h2", { key: 2 }, "I am h2 tag")]),
-    React.createElement("div", { id: "child2", key: "child2" }, [React.createElement("h1", { key: 1 }, "Namaste React By Akshay Saini"), React.createElement("h2", { key: 2 }, "Namaste React By Akshay Saini")])
-]);
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+// Component Composition
+const Title = () => {
+  return (
+    <>
+      <h1>So,Are you Ready to join us!</h1>
+    </>
+  );
+};
+const HeadingComponent = () => {
+  return (
+    <>
+      <h1>Hello My name is Tushar Malhotra and I am 23 years old.</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+        asperiores placeat quasi vitae nihil sunt non cumque inventore ea
+        reiciendis voluptate nulla qui possimus iure corporis, praesentium
+        aperiam doloremque eum.
+      </p>
+      <Title />
+    </>
+  );
+};
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(newHeading);
+root.render(<HeadingComponent />);
